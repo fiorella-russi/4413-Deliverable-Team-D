@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    width: 80%; 
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    flex: 3; 
+    color: #333; 
+}
+
+.image-container {
+    flex: 5; 
+    background-image: url('https://www.supercars.net/blog/wp-content/uploads/2020/07/1065965-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px; 
+    border-radius: 8px; 
+}
+
+.welcome-text h1 {
+    font-size: 3em; 
+    margin-bottom: 0.5em;
+    padding-right: 30px;
+}
+
+.welcome-text p {
+    font-size: 2em; 
+    margin-bottom: 1em;
+        padding-right: 100px;
+        
+}
+
+#error-message{
+	padding-top:20px;
+}
+
+label {
+    display: inline-block;
+    width: 30%; 
+    text-align: left;
+    margin-right: 10px;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="submit"] {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    
+}
