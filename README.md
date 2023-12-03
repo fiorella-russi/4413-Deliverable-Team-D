@@ -1,12 +1,12 @@
-# 4413-Deliverable 3
-**Deliverable 3 Final Code - Team D**
+# 4413 - Deliverable 3 
+**ECARMERCE Final Code - Team D**
 
 Contributors: Fiorella Russi, Aryan Iranpour Mobarakeh, Samir Gandhi, Gouled Mahamud 
 
 This branch contains our final code for Deliverable 3. Please let us know if there are any issues.
 
-Instructions 
---
+## Instructions For Running Our Code 
+
 The following instructions detail how to run our system locally. In order for these steps to work, you must have Eclipse Java EE, Java v20, Apache Tomcat (v10) and JDBC installed. You must also configure your Eclipse with Tomcat and create a web server. 
 
 Please follow the following steps to ensure the code runs seamlessly. 
@@ -15,7 +15,10 @@ Please follow the following steps to ensure the code runs seamlessly.
 
 2. Open MySQL and run the script provided.
  
-3. In our project open srs-> main-> java-> DB -> database.java and change the database credentials to match your own. Please note they are currently set to connect with our deployed database. The specific lines that need to be changed are : line 21, line 44, line 65. 
+3. In our project open srs-> main-> java-> DB -> database.java and change the database credentials to match your own. Please note they are currently set to connect with our deployed database. The specific lines that need to be changed are: line 21, line 44, line 65. 
 
 4. Right-click the project -> Run as and run it on the Tomcat server.
 
+## Instructions For Running Our Test Cases
+
+Specific instructions on how to run each test case can be found inside our Deliverable Document in Section 8, Pages 22-31.  
