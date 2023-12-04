@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding-top: 50px;
+}
+
+select {
+	width: 90px;
+}
+
+.container {
+	padding-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+
+	gap: 20px;
+
+	align-items: baseline;
+	margin-top:100px;
+}
+
+#compare-button {
+	background-color: #669bbc;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1rem;
+	height: 60px;
+	width: 200px;
+	padding:10px;
+}
+
+#buttonContainer {
+	padding-top: 10px;
+	width: 100%;
+
+	
+
+
+}
+
+
+#itemContainer {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.card {
+	flex: 0 0 calc(33.33% - 20px);
+	margin: 10px;
+	
+	border: 1px solid #ddd;
+	
+	
+	text-align: center;
+	
+	transition: box-shadow 0.3s, transform 0.3s;
+	
+	box-sizing: border-box;
+	
+	background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+}
+
+.card:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transform: translateY(-5px);
+}
+
+.card img {
+	 width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    margin: 0 auto;
+    display: block;
+    overflow: hidden; 
+    border-radius: 5px;
+}
+
+
+.side-panel {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 250px; 
+    background-color: white; 
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    overflow: auto; 
+    margin-top: 110px;
+}
+
+
+.side-panel select, 
+.side-panel label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+ select {
+  min-width: 200px;
+  position: relative;
+}
+
+select {
+  appearance: none;
+
+  -webkit-appearance: none;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/arrows-vol-1-5/24/dropdown_arrow2-512.png');
+    background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+
+  width: 50%;
+  font-size: 1.15rem;
+  padding: 0.675em 6em 0.675em 1em;
+  background-color: #fff;
+  border: 1px solid #caced1;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+}
+
+select::before,
+select::after {
+  --size: 0.3rem;
+  content: "";
+  position: absolute;
+  right: 1rem;
+  pointer-events: none;
+}
+
+select::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid black;
+  top: 40%;
+}
+
+select::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid black;
+  top: 55%;
+}
